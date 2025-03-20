@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wira Ganteng Selalu - Spotify Downloader</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.js"></script>
+    <style>
+        .gradient-bg {
+            background: linear-gradient(90deg, #1DB954 0%, #191414 100%);
+        }
+
+        .shadow-custom {
+            box-shadow: 0 4px 15px rgba(29, 185, 84, 0.2);
+        }
+    </style>
+</head>
+
+<body class="bg-gray-900 text-white font-sans">
+    <!-- Header -->
+    <header class="gradient-bg py-4 fixed w-full z-10">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <div class="flex items-center">
+                <i class="fas fa-music text-2xl mr-3"></i>
+                <h1 class="text-xl font-bold">Wira Ganteng Selalu</h1>
+            </div>
+            <nav>
+                <ul class="flex space-x-8">
+                    <li><a href="#tentang" class="hover:text-green-400 transition">Tentang</a></li>
+                    <li><a href="#fitur" class="hover:text-green-400 transition">Fitur</a></li>
+                    <li><a href="#cara-install" class="hover:text-green-400 transition">Instalasi</a></li>
+                    <li><a href="https://storage.googleapis.com/webbuku-a8ecf.appspot.com/Release.rar" class="hover:text-green-400 transition">Download</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 bg-black">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-5xl font-bold mb-6">Wira Ganteng Selalu</h1>
+            <p class="text-2xl text-gray-300 mb-8">Download lagu, album, playlist, dan podcast dari Spotify dengan mudah
+            </p>
+            <div class="flex justify-center">
+                <a href="https://storage.googleapis.com/webbuku-a8ecf.appspot.com/Release.rar" class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-full text-lg shadow-custom transition duration-300 flex items-center">
+                    <img src="asset/windows-logo.png" alt="Download Icon" class="mr-2 w-6 h-6">
+                    Beta Test Download
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="tentang" class="py-20 bg-gray-900">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Tentang Aplikasi</h2>
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-8 md:mb-0">
+                    <img src="asset/website.png" alt="Tentang Aplikasi" class="rounded-lg shadow-lg mx-auto" />
+                </div>
+                <div class="md:w-1/2 md:pl-12">
+                    <p class="text-lg text-gray-300 leading-relaxed">
+                        Wira Ganteng Selalu adalah aplikasi desktop .NET untuk Windows yang memungkinkan Anda mengunduh konten musik dari Spotify dengan kualitas tinggi. Aplikasi ini dirancang dengan antarmuka yang intuitif dan performa yang cepat untuk memberikan pengalaman pengunduhan yang optimal.
+                        Dengan aplikasi ini.
+                    </p>
+                    <p class="text-lg text-gray-300 leading-relaxed mt-4">
+                        Anda dapat dengan mudah mengunduh lagu individual, album lengkap, playlist favorit, atau bahkan podcast populer dari Spotify, semuanya hanya dalam beberapa klik sederhana.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="fitur" class="py-20 bg-gray-800">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Fitur Utama</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gray-900 p-8 rounded-lg shadow-lg text-center">
+                    <div class="text-green-500 text-4xl mb-4">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Download Lagu/Album/Playlist/Podcast</h3>
+                    <p class="text-gray-400">Unduh lagu atau album bahkan playlist sekalipun sekarang lebih mudah tanpa
+                        premium</p>
+                </div>
+                <div class="bg-gray-900 p-8 rounded-lg shadow-lg text-center">
+                    <div class="text-green-500 text-4xl mb-4">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Kecepatan Tinggi</h3>
+                    <p class="text-gray-400">Proses download yang cepat dengan dukungan download paralel.</p>
+                </div>
+                <div class="bg-gray-900 p-8 rounded-lg shadow-lg text-center">
+                    <div class="text-green-500 text-4xl mb-4">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">Tanpa Login</h3>
+                    <p class="text-gray-400">Tidak perlu login atau akun premium untuk menggunakan aplikasi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Installation Guide -->
+    <section id="cara-install" class="py-20 bg-gray-900">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Cara Instalasi</h2>
+            <div class="max-w-3xl mx-auto bg-gray-800 p-8 rounded-lg shadow-lg">
+                <ol class="list-decimal list-inside space-y-6 text-gray-300">
+                    <li class="flex items-start">
+                        <span class="font-bold text-green-500 mr-2">1.</span>
+                        <div>
+                            <p class="font-bold text-white">Download File Installer</p>
+                            <p class="mt-2">Klik tombol Download pada halaman ini untuk mengunduh ZIP/RAR
+                                terbaru.</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="font-bold text-green-500 mr-2">2.</span>
+                        <div>
+                            <p class="font-bold text-white">Ekstrak ZIP</p>
+                            <p class="mt-2">Extract ZIP hasil.</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start">
+                        <span class="font-bold text-green-500 mr-2">3.</span>
+                        <div>
+                            <p class="font-bold text-white">Jalankan Aplikasi</p>
+                            <p class="mt-2">Buka aplikasi spotifyDownloadms.exe </p>
