@@ -1,0 +1,3 @@
+fastapi[standard]
+spotdl = 4.2.11
+uvicorn
